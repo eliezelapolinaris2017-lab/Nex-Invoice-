@@ -175,6 +175,15 @@
         </div>
         <div class="row">
           <button id="importFromContacts" class="btn" type="button">Importar desde Contactos</button>
+          <!-- Fallback para importar contactos por vCard (.vcf) en iOS -->
+<div class="row">
+  <button id="importVCF" class="btn" type="button">Importar vCard (.vcf)</button>
+  <input id="vcfInput" type="file" accept=".vcf,text/vcard" style="display:none" />
+  <small class="muted" id="contactSupportHint">
+    En iPhone puedes compartir un contacto como vCard desde la app Contactos
+    y cargarlo aquí.
+  </small>
+</div>
         </div>
       </form>
 
