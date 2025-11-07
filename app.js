@@ -34,13 +34,14 @@
   const btnSignOut = $('#btnSignOut');
 
   const firebaseConfig = {
-    apiKey:        "TU_API_KEY",
-    authDomain:    "TU_PROYECTO.firebaseapp.com",
-    projectId:     "TU_PROYECTO",
-    storageBucket: "TU_PROYECTO.appspot.com",
-    messagingSenderId: "XXXXXXX",
-    appId:         "1:XXXXXXX:web:YYYYYYYY"
-  };
+    apiKey: "AIzaSyApGLbU5BeKexOq9zpGZlD5DoQJnAdsfpo",
+  authDomain: "nex-invoice.firebaseapp.com",
+  projectId: "nex-invoice",
+  storageBucket: "nex-invoice.firebasestorage.app",
+  messagingSenderId: "854083902991",
+  appId: "1:854083902991:web:af5672a18d0f0a27904d7a",
+  measurementId: "G-Y6S3K5F1JB"
+};
 
   let app, auth, db, user = null;
   let unsubs = []; // para cerrar listeners al salir
